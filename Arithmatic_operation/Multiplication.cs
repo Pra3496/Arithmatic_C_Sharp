@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Arithmatic_operation
 {
-    internal class Substraction
+    internal class Multiplication
     {
-        public int substraction(int first, int second)
+        public int multi(int first, int second)
         {
-            return first - second;
+            return first * second;
         }
     }
 }
