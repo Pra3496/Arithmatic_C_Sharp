@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Arithmatic_operation
 {
-    internal class Additon
+    internal class Substraction
     {
-        public int Addition(int first, int second)
+        public int substraction(int first, int second)
         {
-            return first + second;
+            return first - second;
         }
     }
 }
