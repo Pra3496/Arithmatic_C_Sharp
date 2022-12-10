@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Arithmatic_operation
 {
-    internal class Multiplication
+    internal class Division
     {
-        public int multi(int first, int second)
+        public double divide(int first, int second)
         {
-            return first * second;
+            return ((float)first) / ((float)second);
         }
     }
 }

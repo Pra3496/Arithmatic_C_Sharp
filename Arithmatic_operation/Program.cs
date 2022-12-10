@@ -7,8 +7,8 @@
             int first = 0;
             int second = 0;
 
-            Console.WriteLine("Multiplication Class -> multi");
-            Multiplication mul = new Multiplication();
+            Console.WriteLine("Division Class -> divide");
+            Division div = new Division();
             
 
             Console.WriteLine("Enter the First Number :");
@@ -17,7 +17,7 @@
             Console.WriteLine("Enter the Second Number :");
             second = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Differance of {0} and {1} is {2}", first, second, mul.multi(first, second));
+            Console.WriteLine("Differance of {0} and {1} is {2}", first, second, div.divide(first, second));
 
         }
     }
